@@ -11,6 +11,7 @@
 		299C0D4A2BA9F92400B0F368 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299C0D492BA9F92400B0F368 /* ContentView.swift */; };
 		299C0D4C2BA9F92600B0F368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299C0D4B2BA9F92600B0F368 /* Assets.xcassets */; };
 		299C0D502BA9F92600B0F368 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 299C0D4F2BA9F92600B0F368 /* Preview Assets.xcassets */; };
+		29C4F9B12BACA81C008EA1F2 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 29C4F9B02BACA81C008EA1F2 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		299C0D4B2BA9F92600B0F368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299C0D4D2BA9F92600B0F368 /* BetterRest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BetterRest.entitlements; sourceTree = "<group>"; };
 		299C0D4F2BA9F92600B0F368 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29C4F9B02BACA81C008EA1F2 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		299C0D4E2BA9F92600B0F368 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				29C4F9B02BACA81C008EA1F2 /* SleepCalculator.mlmodel */,
 				299C0D4F2BA9F92600B0F368 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				299C0D4A2BA9F92400B0F368 /* ContentView.swift in Sources */,
+				29C4F9B12BACA81C008EA1F2 /* SleepCalculator.mlmodel in Sources */,
 				299C0D482BA9F92400B0F368 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
